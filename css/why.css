@@ -1,0 +1,66 @@
+.whyOut {
+    display: flex;
+    align-items: center;
+    /* height: 809px; */
+
+    margin: 120px 0px;
+
+}
+
+
+
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-left: 10px;
+    margin-right: 10px;
+    z-index: -1;
+}
+
+
+
+
+.card-body {
+
+    height: 650px;
+    background-color: #0c9db3;
+    overflow-y: hidden;
+}
+
+/* .card-text:last-child {
+    margin-bottom: 0px;
+    margin-top: 43px;
+    color: #69697b;
+} */
+
+.card-title {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 450;
+    overflow: hidden;
+    margin-top: 81px;
+}
+
+.card-text {
+    margin: 5px;
+    padding: 5px;
+
+}
+
+.whyThisCourseList {
+    color: white;
+    margin: 10px;
+    padding: 15px;
+    /* text-align: left; */
+    /* list-style-position: inside; */
+    background-image: url(/images/white-dot.png);
+    background-position: 0% 27px;
+    background-size: 8px;
+    background-repeat: no-repeat;
+
+}

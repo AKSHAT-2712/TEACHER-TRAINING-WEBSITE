@@ -1,0 +1,21 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+body {
+    overflow: hidden;
+}
+
+body {
+    font-family: jost, sans-serif;
+    font-size: 18px;
+    line-height: 1.667em;
+    font-weight: 600;
+}
+
+.section {
+    height: 914px;
+    margin-top: 105px;
+}

@@ -1,0 +1,21 @@
+.whoCan{
+    margin:100px;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-around;
+    height:800px;
+    background-color: #0c9db3;
+    color:white;
+
+}
+
+.whoCanHead{
+    height: 89px;
+    font-size: 61px;
+    margin-bottom: 22px;
+    font-weight: bold;
+    overflow-y: hidden;
+
+
+}
+

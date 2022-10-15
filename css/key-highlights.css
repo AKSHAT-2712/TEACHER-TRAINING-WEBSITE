@@ -1,0 +1,42 @@
+.keyHighlights {
+    /* height: 910px; */
+    background-color: #0c9db3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.keyhighlightsHead {
+    margin-bottom: 14px;
+    padding: 5px;
+    margin-top: 100px;
+}
+
+
+.highlights {
+    margin-left: 160px;
+    display: grid;
+    grid-template-columns: 40% 40%;
+    column-gap: 77px;
+    grid-row-gap: 40px;
+    row-gap: 1px;
+    height: 65%;
+    width: 100%;
+}
+
+.highlight-item {
+    margin: 0px;
+    padding: 14px;
+    color: white;
+    background-image: url(/images/star.png);
+    background-position: 0% 23px;
+    background-size: 14px;
+    background-repeat: no-repeat;
+    height: 93%;
+    font-size: larger;
+}
+
+.highlightHead{
+    height:6%;
+}

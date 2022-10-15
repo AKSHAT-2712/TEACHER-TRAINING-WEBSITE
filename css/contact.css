@@ -1,0 +1,134 @@
+.contact {
+    margin-top: 110px;
+    height: 805px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contactHead {
+    margin-left: 30px;
+    height: 33%;
+    font-weight: 600;
+}
+
+.contactHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 20%;
+
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    width: 33%;
+    margin-right: 30px;
+    margin-left: auto;
+    height: 100%;
+    /* margin-bottom: 70px; */
+}
+
+.contact-region {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    height: 69%;
+
+}
+
+.contact-text {
+    font-size: x-large;
+    font-weight: 600;
+    height: 30%;
+
+}
+
+.contact-region .country-number img {
+    position: absolute;
+}
+
+#indian-call {
+    left: auto;
+    right: 435px;
+}
+
+#foreign-call {
+    right: 199px;
+}
+
+.contact-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 65%;
+    overflow-y: hidden;
+    margin:46px 0px;
+}
+
+.contactList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 42%;
+    height: 64%;
+    margin-left: 63px;
+    text-align: justify;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.contact-body .contactList li{
+    background-image: url(/images/black-circle\ \(1\).png);
+    background-position: 0% 12px;
+    background-size: 8px;
+    background-repeat: no-repeat;
+    height: 31%;
+    font-size: large;
+    padding: 0px 15px;
+}
+
+
+
+.contact-body2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+    margin: 0px 117px;
+    
+}
+
+.body2Head{
+    font-size: 29px;
+    height: 13%;
+    color:#0c9db3;
+}
+
+.body2price{
+    width: 58%;
+    padding: 21px;
+    color:white;
+    background-color: #0c9db3;
+    border-radius:5px;
+    font-size: xx-large;
+}
+
+.contact-register{
+    width: 95%;
+    height: 12%;
+    border: 2px solid #0c9db3;
+    border-radius: 5px;
+    color: #0c9db3;
+    background-color: white;
+}
